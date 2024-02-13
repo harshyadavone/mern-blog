@@ -1,3 +1,5 @@
+Sure, here's a revised version of the README:
+
 # MERN Blog App
 
 Welcome to the MERN Blog App! This is a full-stack web application built using the MERN (MongoDB, Express.js, React, Node.js) stack. The app allows users to create, read, update, and delete blog posts, along with several other features.
@@ -44,29 +46,33 @@ To run this application locally, follow these steps:
      ```
      VITE_FIREBASE_API_KEY=<your-firebase-api-key>
      ```
-5. Install dependencies for both frontend and backend:
-   ```bash
-   npm install
-   cd client
+5. Install dependencies for frontend and backend:
+   -frontend :-
+    ```bash
    npm install
    ```
-6. Run the app in development mode:
+   Backend :-
+   cd client
+   ```bash
+   npm install
+   ```
+    
+7. Run the app in development mode:
    ```bash
    npm run dev
    ```
    and for running the client
+   cd client
    ```bash
    npm run dev
    ```
-   
 
 8. Open your browser and navigate to `http://localhost:5173` to view the app.
 
 ## Deployment
 
-This app is deployed on the Render platform. You can access the deployed app at [MERN Blog App](https://mern-blog-s3eo.onrender.com/).
+This app is deployed on the Render platform. You can access the deployed app [here](https://mern-blog-s3eo.onrender.com/).
 
 ## Contributor
 
-- Harsh Yadav ([@username]([https://github.com/username](https://github.com/harshyadavone)https://github.com/harshyadavone))
-
+- Harsh Yadav ([@harshyadavone](https://github.com/harshyadavone))
